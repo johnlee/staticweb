@@ -6,7 +6,7 @@
 <script>
 $(document).ready(function(){
   $("button").click(function(){
-    $.ajax({url: "https://jsonplaceholder.typicode.com/posts", success: function(result){
+    $.ajax({url: "data.txt", success: function(result){
       console.log("Success got data");
       $("#div1").html(result);
     }});
